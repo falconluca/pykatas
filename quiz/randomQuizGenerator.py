@@ -1,3 +1,6 @@
+#! python3
+# randomQuizGenerator.py - 生成随机的测验试卷文件
+
 import random
 
 capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
@@ -16,9 +19,6 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 
 
 if __name__ == '__main__':
-    """
-    生成随机的测验试卷文件
-    """
     totalQuiz = 2
     for quizNum in range(totalQuiz):
         # STEP1: Create the quiz and answer key files.
